@@ -24,7 +24,9 @@ const Like = db.define('Like', {
     foreignKey: 'userId' 
   });
   Like.belongsTo(Post, {
-    foreignKey: 'postId'
+    foreignKey: 'postId',
+    onDelete: "CASCADE",
+    hooks: true,
   })
 
   

@@ -44,7 +44,7 @@ exports.createPost =  (req, res, next) => {
                 userId: userFound.id
             })
             post.save()
-            //console.log(error)
+            
             .then(() => res.status(201).json({ message: 'Votre message a bien été créé !' }))
             .catch(error => {console.log(error);res.status(400).json({ error: 'Une erreur est survenue 😫 !' })});
         } else {
@@ -135,7 +135,7 @@ exports.deletePost = (req, res, next) => {
                     where: { id: req.params.postId } 
                 })
                 .then(() => res.status(200).json({ message: 'Message supprimé !' }))
-                .catch(() => res.status(500).json({ error: 'Une erreur est survenue 😫 !' }));
+                .catch((e) => {console.log(e);res.status(500).json({ error: 'Une erreur est survenue 😫 !' })});
             }
         } else {
             return res.status(404).json({ error: 'Message non trouvé'})

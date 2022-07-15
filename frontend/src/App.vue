@@ -90,12 +90,14 @@ nav {
             }        
          
     @media (max-width: 600px) {
+    right: 75%;
      top: 10%;  
      width: 25%;     
             }
     @media (max-width: 500px) {
+    right: 80%;
      top: 10%;  
-     width: 30%;     
+     width: 20%;     
             }                  
     &:hover, &:focus {
     color: #f33009;

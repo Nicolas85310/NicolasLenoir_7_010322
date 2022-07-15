@@ -596,7 +596,9 @@
                             align-items: center;
                             justify-content: space-around;
                             &__file>input {
-                            //display: none; 
+                            //display: none;
+                            @media (max-width: 515px) {
+                            font-size: 10px;} 
                             }
                             &__file__btnInvisible {
                                 display: flex;
@@ -619,6 +621,8 @@
                                 margin: 1rem;
                                 outline-style: none;
                                 margin-left: 1rem;
+                                @media (max-width: 515px) {
+                                font-size: 10px; }    
                                 &:hover, &:focus {
                                     border: 3px solid #f33009;
                                     color: #f33009;

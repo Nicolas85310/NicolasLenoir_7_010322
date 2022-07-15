@@ -26,6 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Structure de la table `comments`
 --
+USE `groupomania`;
 
 DROP TABLE IF EXISTS `comments`;
 CREATE TABLE IF NOT EXISTS `comments` (
