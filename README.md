@@ -1,6 +1,6 @@
 # PROJET 7 - Groupomania - Réseau social d'entreprise
 
-![](mobile.gif)
+                                  ![](mobile.gif)
 
 ## INSTALLATION
 
@@ -32,7 +32,7 @@ pour la création des 3 utilsateurs c'est à dire (voir ci-dessous), il vous fau
 
 #### 1)soit les créer à la main via le site:
 ```
-pseudo:	    email:	                  password:
+pseudo:	    email:	                password:
 ______________________________________________
 admin 	    admin.admin@sfr.fr 	      Admin85@   ✋(modifier la clé "adminStatus" sur 1 (table "user"))
  	
@@ -60,10 +60,13 @@ DB_LANG = mysql
 -------------------------------------------------------------
 #### 3)soit executer la requête suivantes,toujours via mysql:
 
-```INSERT INTO `users` (`id`, `username`, `email`, `password`, `avatar`, `adminStatus`, `createdAt`, `updatedAt`)``` ```VALUES```
-```(1, 'admin', 'admin.admin@sfr.fr', '$2b$10$f08.5aP2jlQHpWM.C33PDuBTaUAUqEddZeMWbCtCNUQ81PDhEYMH2', NULL, 1, '2022-07-15 03:07:22', '2022-07-15 03:07:22'),```
-```(2, 'julien', 'julien.julien@free.fr', '$2b$10$vfHxNfw6YuAjcTI107AByeL3U49aLN9erymebSDiFWlSHVlT1krse', NULL, 0, '2022-07-15 03:11:34', '2022-07-15 03:11:34'),```
-```(3, 'sophie', 'sophie.sophie@orange.fr', '$2b$10$HgLojGJlbG.1qXrBjoei0OcYc6QP.9xbg5SMmTXAAC1Q0Lx2/DRWm', NULL, 0, '2022-07-15 03:12:59', '2022-07-15 03:12:59');```
-```COMMIT;```
+```
+INSERT INTO `users` (`id`, `username`, `email`, `password`, `avatar`, `adminStatus`, `createdAt`, `updatedAt`)       VALUES
+(1, 'admin', 'admin.admin@sfr.fr', '$2b$10$f08.5aP2jlQHpWM.C33PDuBTaUAUqEddZeMWbCtCNUQ81PDhEYMH2', NULL, 1, '2022-07-15 03:07:22', '2022-07-15 03:07:22'),
+(2, 'julien', 'julien.julien@free.fr', '$2b$10$vfHxNfw6YuAjcTI107AByeL3U49aLN9erymebSDiFWlSHVlT1krse', NULL, 0, '2022-07-15 03:11:34', '2022-07-15 03:11:34'),
+(3, 'sophie', 'sophie.sophie@orange.fr', '$2b$10$HgLojGJlbG.1qXrBjoei0OcYc6QP.9xbg5SMmTXAAC1Q0Lx2/DRWm', NULL, 0, '2022-07-15 03:12:59', '2022-07-15 03:12:59');
+COMMIT;
+
+```
 
 #### En vous souhaitant une bonne exploration ! Merci :)
