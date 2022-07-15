@@ -1,9 +1,11 @@
 # PROJET 7 - Groupomania - Réseau social d'entreprise
 
 
+
 <p align="center">
-![](mobile.gif)
+  <img src="mobile.gif" alt="animated" />
 </p>
+
 
 
 ## INSTALLATION
