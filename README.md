@@ -1,6 +1,6 @@
 # PROJET 7 - Groupomania - Réseau social d'entreprise
 
-                                  ![](mobile.gif)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](mobile.gif)
 
 ## INSTALLATION
 
@@ -32,7 +32,7 @@ pour la création des 3 utilsateurs c'est à dire (voir ci-dessous), il vous fau
 
 #### 1)soit les créer à la main via le site:
 ```
-pseudo:	    email:	                password:
+pseudo:	    email:	              password:
 ______________________________________________
 admin 	    admin.admin@sfr.fr 	      Admin85@   ✋(modifier la clé "adminStatus" sur 1 (table "user"))
  	
