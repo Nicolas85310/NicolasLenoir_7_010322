@@ -1,6 +1,10 @@
 # PROJET 7 - Groupomania - Réseau social d'entreprise
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](mobile.gif)
+
+<p align="center">
+![](mobile.gif)
+</p>
+
 
 ## INSTALLATION
 
