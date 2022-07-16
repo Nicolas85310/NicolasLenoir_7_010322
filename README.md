@@ -35,7 +35,7 @@ Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la co
 
 Lancer <img src="/images/ws.JPG" /> jusqu'à ce que l'icone en bas devienne vert:
 
-<img src="/images/wamp.JPG" />
+<img src="/images/wamp.jpg" />
 
   
 
