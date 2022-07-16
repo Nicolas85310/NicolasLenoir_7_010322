@@ -26,7 +26,7 @@ Pré-requis :
 
  https://git-scm.com/downloads
 
---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la commande:
  
