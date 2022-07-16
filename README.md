@@ -60,8 +60,8 @@ pour la création des 3 utilsateurs c'est à dire (voir ci-dessous), il vous fau
 ```
 pseudo:	    email:	              password:
 ______________________________________________
-admin 	    admin.admin@sfr.fr 	      Admin85@   ✋(modifier la clé "adminStatus" sur 1 (table "user"))
- 	
+admin 	    admin.admin@sfr.fr 	      Admin85@   ⚠ (penser à modifier la clé "adminStatus" sur 1 
+ 	                                                    dans la table "users" via phpMyadmin) ⚠
 julien 	    julien.julien@free.fr     Julien85@
 
 sophie 	    sophie.sophie@orange.fr   Sophie85@
@@ -70,7 +70,7 @@ sophie 	    sophie.sophie@orange.fr   Sophie85@
 -----------------------------------------------
 #### 2)soit importer la base de donnée groupomania.sql (qui se trouve dans le dossier "bdd" ) ce qui écrasera l'ancienne (les 3 utilisateurs seront ajoutés):
 
-j'y ai ajouté ```USE 'groupomania'``` comme ça vous n'avez pas besoin de tapez cette commande 😉
+
 
 
  Rendez-vous à cette adresse: http://localhost/phpmyadmin/
@@ -102,12 +102,6 @@ Cliquer sur l'onglet en haut <img src="/images/sql.JPG" />
 Copier le code ci-dessous et le coller dans la zone blanche de texte.
 
 
-Cliquer sur <img src="/images/exe.JPG" />
-
-
-Vos utilisateurs on été crées ! 
-
-
 Code:
 ```
 USE `groupomania`;
@@ -118,5 +112,14 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `avatar`, `adminStat
 
 
 ```
+
+
+Cliquer sur <img src="/images/exe.JPG" />
+
+
+Vos utilisateurs on été crées ! 
+
+
+
 
 #### En vous souhaitant une bonne exploration ! Merci :)
