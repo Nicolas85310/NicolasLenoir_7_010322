@@ -32,11 +32,11 @@ Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la co
 ```git clone https://github.com/Nicolas85310/NicolasLenoir_7_010322.git```
 
 
-Lancer <p><img src="images/ws.jpeg" /></p> jusqu'à ce que l'icone en bas devienne vert:
+Lancer <img src="images/ws.jpg" /> jusqu'à ce que l'icone en bas devienne vert:
 
 <img src="/images/wamp.jpg" />
 
-![ScreenShot](images/wamp.jpg)  
+  
 
 
 ### Demarrage du Frontend Vue js:
@@ -78,24 +78,24 @@ j'y ai ajouté ```USE 'groupomania'``` comme ça vous n'avez pas besoin de tapez
 
  http://localhost/phpmyadmin/ 
 
- Cliquer sur <p><img src="images/exe.jpeg" /></p> pour entrer dans l'interface.d'administration.
+ Cliquer sur <p><img src="images/exe.jpg" /></p> pour entrer dans l'interface.d'administration.
 
- Cliquer sur l'onglet en haut <p><img src="images/import.jpeg" /></p>.
+ Cliquer sur l'onglet en haut <p><img src="images/import.jpg" /></p>.
 
- Cliquer ensuite sur <p><img src="images/choisir.jpeg" /></p> et sur la bdd <p><img src="images/bdd.jpeg" /></p>
+ Cliquer ensuite sur <p><img src="images/choisir.jpg" /></p> et sur la bdd <p><img src="images/bdd.jpg" /></p>
 
- Pour finir,cliquer sur <p><img src="images/exe.jpeg" /></p>
+ Pour finir,cliquer sur <p><img src="images/exe.jpg" /></p>
 
  Vos utilisateurs on été crées !
 
 -------------------------------------------------------------
 #### 3)soit executer la requête suivante,toujours via la page d'administration phpMyadmin:
 
-Cliquer sur l'onglet en haut <p><img src="images/sql.jpeg" /></p>
+Cliquer sur l'onglet en haut <p><img src="images/sql.jpg" /></p>
 
 Copier le code ci-dessous et le coller dans la zone blanche de texte.
 
-Cliquer sur <p><img src="images/exe.jpeg" /></p>
+Cliquer sur <p><img src="images/exe.jpg" /></p>
 
 Vos utilisateurs on été crées ! 
  
