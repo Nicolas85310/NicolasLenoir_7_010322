@@ -33,7 +33,7 @@ Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la co
 ```git clone https://github.com/Nicolas85310/NicolasLenoir_7_010322.git```
 
 
-Lancer  <img src="/images/ws.JPG" />  jusqu'à ce que l'icone en bas devienne vert:  <img src="/images/wamp.jpg" />
+Lancer  <img src="/images/ws.png" />  jusqu'à ce que l'icone en bas devienne vert:  <img src="/images/wamp.jpg" />
 
 
 ### Demarrage du Frontend Vue js:
@@ -107,7 +107,7 @@ Cliquer sur <img src="/images/exe.JPG" />
 
 Vos utilisateurs on été crées ! 
 
- 
+
 Code:
 ```
 USE `groupomania`;
