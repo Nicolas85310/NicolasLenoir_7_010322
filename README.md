@@ -2,7 +2,7 @@
 
 
 
-<p align="center"><img src="mobile.gif" alt="animated" /></p>
+<p align="center"><img src="mobile.gif" alt="animated" />
   
 ## Technologies utilisées:
 
@@ -78,24 +78,24 @@ j'y ai ajouté ```USE 'groupomania'``` comme ça vous n'avez pas besoin de tapez
 
  http://localhost/phpmyadmin/ 
 
- Cliquer sur <p><img src="images/exe.jpg" /></p> pour entrer dans l'interface.d'administration.
+ Cliquer sur <img src="images/exe.jpg" /> pour entrer dans l'interface.d'administration.
 
- Cliquer sur l'onglet en haut <p><img src="images/import.jpg" /></p>.
+ Cliquer sur l'onglet en haut <img src="images/import.jpg" />.
 
- Cliquer ensuite sur <p><img src="images/choisir.jpg" /></p> et sur la bdd <p><img src="images/bdd.jpg" /></p>
+ Cliquer ensuite sur <img src="images/choisir.jpg" /> et sur la bdd <img src="images/bdd.jpg" />
 
- Pour finir,cliquer sur <p><img src="images/exe.jpg" /></p>
+ Pour finir,cliquer sur <img src="images/exe.jpg" />
 
  Vos utilisateurs on été crées !
 
 -------------------------------------------------------------
 #### 3)soit executer la requête suivante,toujours via la page d'administration phpMyadmin:
 
-Cliquer sur l'onglet en haut <p><img src="images/sql.jpg" /></p>
+Cliquer sur l'onglet en haut <img src="images/sql.jpg" />
 
 Copier le code ci-dessous et le coller dans la zone blanche de texte.
 
-Cliquer sur <p><img src="images/exe.jpg" /></p>
+Cliquer sur <img src="images/exe.jpg" />
 
 Vos utilisateurs on été crées ! 
  
