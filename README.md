@@ -33,11 +33,7 @@ Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la co
 ```git clone https://github.com/Nicolas85310/NicolasLenoir_7_010322.git```
 
 
-Lancer <img src="/images/ws.JPG" /> jusqu'à ce que l'icone en bas devienne vert:
-
-<img src="/images/wamp.jpg" />
-
-  
+Lancer  <img src="/images/ws.JPG" />  jusqu'à ce que l'icone en bas devienne vert:  <img src="/images/wamp.jpg" />
 
 
 ### Demarrage du Frontend Vue js:
@@ -47,7 +43,7 @@ Lancer <img src="/images/ws.JPG" /> jusqu'à ce que l'icone en bas devienne vert
       //  npm install pour installer les dépendances
       //  npm run serve pour lancer le frontend
 
-      Rendez-vous ensuite à l'adresse http://localhost:8080
+      Rendez-vous ensuite à l'adresse: http://localhost:8080
 
 ### Démarrage du backend:
  
@@ -75,9 +71,10 @@ sophie 	    sophie.sophie@orange.fr   Sophie85@
 #### 2)soit importer la base de donnée groupomania.sql (qui se trouve dans le dossier "bdd" ) ce qui écrasera l'ancienne (les 3 utilisateurs seront ajoutés):
 j'y ai ajouté ```USE 'groupomania'``` comme ça vous n'avez pas besoin de tapez cette commande 😉
 
- Rendez-vous à cette adresse:
 
- http://localhost/phpmyadmin/ 
+ Rendez-vous à cette adresse: http://localhost/phpmyadmin/
+
+  
 
  Cliquer sur <img src="/images/exe.JPG" /> pour entrer dans l'interface.d'administration.
 
