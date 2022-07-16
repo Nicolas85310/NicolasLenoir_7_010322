@@ -60,8 +60,8 @@ pour la création des 3 utilsateurs c'est à dire (voir ci-dessous), il vous fau
 ```
 pseudo:	    email:	              password:
 ______________________________________________
-admin 	    admin.admin@sfr.fr 	      Admin85@   ⚠ (penser à modifier la clé "adminStatus" sur 1 
- 	                                                    dans la table "users" via phpMyadmin) ⚠
+admin 	    admin.admin@sfr.fr 	      Admin85@   🖐👉(penser à modifier la clé "adminStatus" sur 1 
+ 	                                                    dans la table "users" via phpMyadmin)
 julien 	    julien.julien@free.fr     Julien85@
 
 sophie 	    sophie.sophie@orange.fr   Sophie85@
