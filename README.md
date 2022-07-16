@@ -35,7 +35,7 @@ Pour commencer,ouvrez un terminal et veuillez Cloner ce dépot Github avec la co
 Lancer <p><img src="images/ws.jpeg" /></p> jusqu'à ce que l'icone en bas devienne vert:
 
 <p><img src="images/wamp.jpeg" /></p>
-![ScreenShot](/images/wamp.jpg)  
+![ScreenShot](../images/wamp.jpg)  
 
 
 ### Demarrage du Frontend Vue js:
