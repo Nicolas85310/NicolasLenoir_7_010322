@@ -24,7 +24,8 @@ var Comment = db.define('Comment', {
 
 
   Comment.belongsTo(User, {
-    foreignKey: 'userId'
+    foreignKey: 'userId',
+    onDelete: "CASCADE"
   }),
   Comment.belongsTo(Post, {
     foreignKey: 'postId',

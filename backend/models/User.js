@@ -40,7 +40,8 @@ var User = db.define('User', {
     defaultValue: false
   }
  })
- Post.belongsTo(User, {foreignKey: 'userId'})
+ Post.belongsTo(User, {foreignKey: 'userId',     
+ onDelete: "CASCADE"})
   
 
 

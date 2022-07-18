@@ -21,17 +21,13 @@ const Like = db.define('Like', {
    
 })
   Like.belongsTo(User, { 
-    foreignKey: 'userId' 
+    foreignKey: 'userId',
+    onDelete: "CASCADE"
+    
   });
   Like.belongsTo(Post, {
     foreignKey: 'postId',
     onDelete: "CASCADE",
     hooks: true,
   })
-
-  
-  
-  
-  
-
 module.exports = Like;

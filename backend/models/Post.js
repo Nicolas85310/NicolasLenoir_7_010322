@@ -2,11 +2,6 @@
 const sequelize = require('sequelize')
 const db = require('../utils/database')
 
-
-
-
-
-
 var Post =  db.define('Post', {
 
   content: {

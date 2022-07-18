@@ -177,7 +177,7 @@ exports.deleteAccount = (req, res, next) => {
                 where: { id: id } 
             })
             .then(() => res.status(200).json({ message: 'Votre compte a été supprimé' }))
-            .catch(() => res.status(500).json({ error: 'Une erreur est survenue 😫 !' }));
+            .catch((error) => {console.log(error);res.status(500).json({ error: 'Une erreur est survenue 😫 !' })});
             
         } else {
             return res.status(404).json({ error: 'Utilisateur non trouvé' })
